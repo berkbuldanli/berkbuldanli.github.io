@@ -4,223 +4,286 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Berk Buldanlı — Product Manager</title>
-<meta name="description" content="Berk Buldanlı — Product Manager specializing in marketplace platforms, legacy data migration, and global rollouts.">
+<meta name="description" content="Berk Buldanlı — Product Manager at Delivery Hero, building marketplace platforms across 20+ countries. Specializing in global product, ratings & reviews, and large-scale data migration.">
+<meta property="og:title" content="Berk Buldanlı — Product Manager">
+<meta property="og:description" content="Product Manager building marketplace platforms across 20+ countries.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://berkbuldanli.github.io">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;450;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<div class="grid-overlay" aria-hidden="true"></div>
+<a class="skip-link" href="#main">Skip to content</a>
 
-<nav class="nav">
-  <a href="#top" class="nav__mark">BB</a>
-  <div class="nav__links">
-    <a href="#artifacts">Artifacts</a>
-    <a href="#field-notes">Field Notes</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
+<header class="site-header" id="top">
+  <div class="site-header__inner">
+    <a href="#top" class="brand">
+      <span class="brand__name">Berk Buldanlı</span>
+      <span class="brand__role">Product Manager</span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#writing">Writing</a></li>
+        <li><a href="#contact" class="nav__cta">Contact</a></li>
+      </ul>
+    </nav>
   </div>
-</nav>
-
-<header class="hero" id="top">
-  <div class="hero__grid" aria-hidden="true">
-    <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="hero__lines">
-      <line x1="0" y1="20" x2="100" y2="20" class="draft-line" style="--d:0.1s"/>
-      <line x1="0" y1="80" x2="100" y2="80" class="draft-line" style="--d:0.3s"/>
-      <line x1="15" y1="0" x2="15" y2="100" class="draft-line" style="--d:0.5s"/>
-      <line x1="85" y1="0" x2="85" y2="100" class="draft-line" style="--d:0.7s"/>
-    </svg>
-  </div>
-
-  <div class="hero__content">
-    <p class="eyebrow">PORTFOLIO — REV. 2026</p>
-    <h1 class="hero__name">Berk Buldanlı</h1>
-    <p class="hero__role">Product Manager — Marketplace Platforms &amp; Data Migration</p>
-    <p class="hero__thesis">I turn sprawling, decade-old systems into products that scale across new markets without losing what made them work.</p>
-  </div>
-
-  <div class="title-block">
-    <div class="title-block__row">
-      <span class="title-block__label">BASED</span>
-      <span class="title-block__value todo">[confirm city]</span>
-    </div>
-    <div class="title-block__row">
-      <span class="title-block__label">FOCUS</span>
-      <span class="title-block__value">Marketplaces · Migrations · Global Rollouts</span>
-    </div>
-    <div class="title-block__row">
-      <span class="title-block__label">CURRENTLY</span>
-      <span class="title-block__value todo">[confirm current role]</span>
-    </div>
-    <div class="title-block__row">
-      <span class="title-block__label">CERTIFIED</span>
-      <span class="title-block__value">Product Mgmt (Pendo × MtP), Aha! PM Professional</span>
-    </div>
-  </div>
-
-  <a href="#artifacts" class="scroll-cue" aria-label="Scroll to artifacts">↓</a>
 </header>
 
-<main>
+<main id="main">
 
-  <section class="section" id="artifacts">
-    <div class="section__head">
-      <p class="section__eyebrow">01 — CATALOG</p>
-      <h2 class="section__title">Product Artifacts</h2>
-      <p class="section__sub">A catalog of the systems I've shipped, migrated, and scaled.</p>
-    </div>
-
-    <div class="artifacts">
-
-      <article class="artifact">
-        <div class="artifact__tag">
-          <span class="artifact__num">ARTIFACT NO. 01</span>
-          <span class="artifact__type">MIGRATION</span>
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="hero__text reveal">
+        <p class="hero__eyebrow">Product Manager · Delivery Hero</p>
+        <h1 class="hero__title">Building marketplace products that scale across borders.</h1>
+        <p class="hero__lede">
+          I turn complex, decade-old systems into products that grow into new markets —
+          without losing what made them work. Today I lead product for global ratings &amp;
+          reviews across 20+ countries.
+        </p>
+        <div class="hero__actions">
+          <a href="#work" class="btn btn--primary">View my work</a>
+          <a href="#contact" class="btn btn--ghost">Get in touch</a>
         </div>
-        <h3 class="artifact__title">Migrating 20 Years of Marketplace Data Without Breaking the Business</h3>
-        <div class="artifact__spec">
-          <div class="spec__item">
-            <span class="spec__label">CONTEXT</span>
-            <p>Yemeksepeti — Delivery Hero's Turkish marketplace, carrying two decades of operational history — needed to move onto Delivery Hero's global platform.</p>
+        <dl class="hero__meta">
+          <div>
+            <dt>Based in</dt>
+            <dd>Istanbul, Türkiye</dd>
           </div>
-          <div class="spec__item">
-            <span class="spec__label">ROLE</span>
-            <p>Led the migration strategy and planning as product manager, coordinating across engineering and regional teams. <span class="todo">[confirm exact scope]</span></p>
+          <div>
+            <dt>Currently</dt>
+            <dd>PM, Global Ratings &amp; Reviews</dd>
           </div>
-          <div class="spec__item">
-            <span class="spec__label">APPROACH</span>
-            <p>Mapped two decades of legacy data structures and sequenced the migration to minimize disruption to a live, high-volume marketplace.</p>
+          <div>
+            <dt>Focus</dt>
+            <dd>Marketplaces · Global rollouts · Migration</dd>
           </div>
-          <div class="spec__item">
-            <span class="spec__label">OUTCOME</span>
-            <p>Completed the migration with minimal disruption to the live business. <span class="todo">[add a number — e.g. records migrated, downtime avoided, timeline]</span></p>
-          </div>
-        </div>
-      </article>
+        </dl>
+      </div>
 
-      <article class="artifact">
-        <div class="artifact__tag">
-          <span class="artifact__num">ARTIFACT NO. 02</span>
-          <span class="artifact__type">GLOBAL ROLLOUT</span>
-        </div>
-        <h3 class="artifact__title">Shipping One Roadmap Across 20+ Markets</h3>
-        <div class="artifact__spec">
-          <div class="spec__item">
-            <span class="spec__label">CONTEXT</span>
-            <p class="todo">[tell me about a specific feature or initiative you rolled out across Delivery Hero's markets]</p>
-          </div>
-          <div class="spec__item">
-            <span class="spec__label">ROLE</span>
-            <p class="todo">[what did you own — strategy, execution, local adaptation?]</p>
-          </div>
-          <div class="spec__item">
-            <span class="spec__label">APPROACH</span>
-            <p class="todo">[how did you balance a centralized product vision with local market differences?]</p>
-          </div>
-          <div class="spec__item">
-            <span class="spec__label">OUTCOME</span>
-            <p class="todo">[what changed as a result — adoption, revenue, efficiency?]</p>
-          </div>
-        </div>
-      </article>
-
-      <article class="artifact artifact--open">
-        <div class="artifact__tag">
-          <span class="artifact__num">ARTIFACT NO. 03</span>
-          <span class="artifact__type">OPEN SLOT</span>
-        </div>
-        <h3 class="artifact__title">More in the Archive</h3>
-        <p class="artifact__open-copy">A few more projects live outside this page for now. Happy to walk through them directly.</p>
-        <a href="#contact" class="artifact__open-link">Get in touch →</a>
-      </article>
-
-    </div>
-  </section>
-
-  <section class="section section--dark" id="field-notes">
-    <div class="section__head">
-      <p class="section__eyebrow">02 — NOTES</p>
-      <h2 class="section__title">Field Notes</h2>
-      <p class="section__sub">Writing on product frameworks and practice.</p>
-    </div>
-
-    <ul class="notes">
-      <li class="note">
-        <a href="https://berkbuldanli.medium.com/jobs-to-be-done-how-it-can-helps-b395be3beb29" target="_blank" rel="noopener">
-          <span class="note__title">Jobs-to-Be-Done: How It Can Help</span>
-          <span class="note__desc">Using the JTBD framework to root product decisions in the task a customer is actually trying to get done.</span>
-          <span class="note__meta">Medium ↗</span>
-        </a>
-      </li>
-      <li class="note">
-        <a href="https://berkbuldanli.medium.com/achieving-product-market-fit-examples-and-strategies-for-success-9e59899d8571" target="_blank" rel="noopener">
-          <span class="note__title">Achieving Product-Market Fit</span>
-          <span class="note__desc">Strategies for testing whether a product truly fits the market it's built for.</span>
-          <span class="note__meta">Medium ↗</span>
-        </a>
-      </li>
-      <li class="note">
-        <a href="https://berkbuldanli.medium.com/measuring-product-success-key-metrics-and-strategies-for-product-managers-8f1ee9e28e21" target="_blank" rel="noopener">
-          <span class="note__title">Measuring Product Success</span>
-          <span class="note__desc">Which metrics actually tell you whether a product is working, and how to track them.</span>
-          <span class="note__meta">Medium ↗</span>
-        </a>
-      </li>
-      <li class="note">
-        <a href="https://www.linkedin.com/pulse/six-key-product-artifacts-development-berk-buldanl%C4%B1" target="_blank" rel="noopener">
-          <span class="note__title">Six Key Product Artifacts in Product Development</span>
-          <span class="note__desc">A field guide to the prototypes, personas, and journey maps product teams build along the way.</span>
-          <span class="note__meta">LinkedIn ↗</span>
-        </a>
-      </li>
-      <li class="note">
-        <a href="https://www.linkedin.com/pulse/from-birth-decline-product-lifecycle-berk-buldanl%C4%B1-dqqzf" target="_blank" rel="noopener">
-          <span class="note__title">From Birth to Decline: Product Lifecycle</span>
-          <span class="note__desc">Walking through each stage of a product's life with real-world examples.</span>
-          <span class="note__meta">LinkedIn ↗</span>
-        </a>
-      </li>
-    </ul>
-  </section>
-
-  <section class="section" id="about">
-    <div class="section__head">
-      <p class="section__eyebrow">03 — PROFILE</p>
-      <h2 class="section__title">About</h2>
-    </div>
-
-    <div class="about">
-      <p class="about__bio">
-        I started in industrial engineering at Istanbul Kültür University, which is probably why I still think in systems and sequences before I think in features. That background led me into product management at Yemeksepeti and Delivery Hero, where I've worked on marketplace platforms operating across 20+ countries — most notably leading the migration of two decades of legacy company data onto a new global platform. <span class="todo">[add a line or two more about your path, or what you're focused on now]</span>
-      </p>
-
-      <div class="toolkit">
-        <span class="toolkit__label">TOOLKIT</span>
-        <div class="toolkit__grid">
-          <span class="chip">Strategic Roadmapping</span>
-          <span class="chip">Data-Driven Decision-Making</span>
-          <span class="chip">User-Centered Discovery (JTBD)</span>
-          <span class="chip">End-to-End Product Development</span>
-          <span class="chip">Cross-Functional Collaboration</span>
-          <span class="chip">Large-Scale Data Migration</span>
+      <div class="hero__portrait reveal">
+        <div class="avatar">
+          <!-- Drop your photo at assets/profile.jpg and it appears here automatically.
+               Until then, a clean monogram shows in its place. -->
+          <img src="assets/profile.jpg" alt="Portrait of Berk Buldanlı" onerror="this.remove()">
+          <span class="avatar__mono" aria-hidden="true">BB</span>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- ===== About ===== -->
+  <section class="section" id="about">
+    <div class="section__head reveal">
+      <p class="section__kicker">About</p>
+      <h2 class="section__title">Systems thinker, turned product manager.</h2>
+    </div>
+
+    <div class="about reveal">
+      <div class="about__bio">
+        <p>
+          I'm a product manager at Delivery Hero, working on marketplace platforms that operate
+          in more than 20 countries across APAC, Europe, and MENA. My background is in industrial
+          engineering, which is probably why I still think in systems and sequences before I think
+          in features.
+        </p>
+        <p>
+          I started in product at Yemeksepeti — Türkiye's largest food-delivery marketplace —
+          where I helped move two decades of company data and tooling onto Delivery Hero's global
+          platform. Today I focus on the global ratings &amp; reviews domain, shipping features
+          that help millions of customers make better decisions across dozens of markets.
+        </p>
+        <p>
+          I care about discovery grounded in the real job a customer is trying to get done,
+          decisions backed by data, and — above all — shipping things that actually make it to
+          production.
+        </p>
+      </div>
+
+      <aside class="about__side">
+        <div class="side-block">
+          <h3 class="side-block__label">Experience</h3>
+          <ul class="timeline">
+            <li>
+              <span class="timeline__role">Product Manager — Global Ratings &amp; Reviews</span>
+              <span class="timeline__org">Delivery Hero · Present</span>
+            </li>
+            <li>
+              <span class="timeline__role">Product Owner — Platform Migration</span>
+              <span class="timeline__org">Yemeksepeti / Delivery Hero</span>
+            </li>
+            <li>
+              <span class="timeline__role">B.Sc. Industrial Engineering</span>
+              <span class="timeline__org">Istanbul Kültür University</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="side-block">
+          <h3 class="side-block__label">Certifications</h3>
+          <ul class="plain-list">
+            <li>Product Management — Pendo × Mind the Product</li>
+            <li>Product Management Professional — Aha!</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <div class="toolkit reveal">
+      <h3 class="side-block__label">Toolkit</h3>
+      <ul class="chips">
+        <li>Strategic Roadmapping</li>
+        <li>Product Discovery (JTBD)</li>
+        <li>Data-Informed Decisions</li>
+        <li>Large-Scale Data Migration</li>
+        <li>Cross-Functional Leadership</li>
+        <li>End-to-End Delivery</li>
+        <li>Marketplace Products</li>
+        <li>Global Rollouts</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Work ===== -->
+  <section class="section section--tint" id="work">
+    <div class="section__head reveal">
+      <p class="section__kicker">Selected Work</p>
+      <h2 class="section__title">A couple of the things I've shipped.</h2>
+      <p class="section__sub">
+        A few more projects live outside this page — happy to walk through them directly.
+      </p>
+    </div>
+
+    <div class="cases">
+
+      <article class="case reveal">
+        <p class="case__type">Platform Migration</p>
+        <h3 class="case__title">Migrating 20 years of marketplace data onto a global platform</h3>
+        <dl class="case__grid">
+          <div>
+            <dt>Context</dt>
+            <dd>Yemeksepeti — Türkiye's largest food-delivery marketplace and part of Delivery Hero — carried two decades of operational history that needed to move onto Delivery Hero's global platform.</dd>
+          </div>
+          <div>
+            <dt>My role</dt>
+            <dd>Product owner for the migration. I owned the data migration and the feature-gap analysis between the legacy and new platforms, plus bug triage, friends-and-family testing before go-live, and post-migration follow-up.</dd>
+          </div>
+          <div>
+            <dt>Approach</dt>
+            <dd>Mapped 20 years of legacy data structures, pinpointed where the new platform fell short of what the business relied on, and sequenced the cutover to keep a live, high-volume marketplace running throughout.</dd>
+          </div>
+          <div>
+            <dt>Impact</dt>
+            <dd>Two decades of company data moved onto the global platform with a smooth, low-disruption go-live — putting the Turkish business on the same foundation used across Delivery Hero's markets.
+              <!-- Have a hard number (records migrated, downtime avoided, timeline)? Send it and I'll add it here. --></dd>
+          </div>
+        </dl>
+      </article>
+
+      <article class="case reveal">
+        <p class="case__type">Global Product</p>
+        <h3 class="case__title">Ratings &amp; reviews for 20+ marketplaces</h3>
+        <dl class="case__grid">
+          <div>
+            <dt>Context</dt>
+            <dd>Ratings and reviews are how millions of customers decide what to order — and every market has its own habits, languages, and expectations.</dd>
+          </div>
+          <div>
+            <dt>My role</dt>
+            <dd>Product manager for the global ratings &amp; reviews domain, driving initiatives across 20+ countries spanning APAC, Europe, and MENA.</dd>
+          </div>
+          <div>
+            <dt>Approach</dt>
+            <dd>Balanced a single, centralized product vision with the realities of local markets — shipping one roadmap that still respects regional differences.</dd>
+          </div>
+          <div>
+            <dt>Impact</dt>
+            <dd>A more consistent ratings &amp; reviews experience across dozens of markets, built on one shared platform.
+              <!-- Add an adoption / coverage / revenue metric here when you have one. --></dd>
+          </div>
+        </dl>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== Writing ===== -->
+  <section class="section" id="writing">
+    <div class="section__head reveal">
+      <p class="section__kicker">Writing</p>
+      <h2 class="section__title">Notes on product craft.</h2>
+      <p class="section__sub">Essays on the frameworks and practice behind good product decisions.</p>
+    </div>
+
+    <ul class="writing reveal">
+      <li>
+        <a href="https://berkbuldanli.medium.com/jobs-to-be-done-how-it-can-helps-b395be3beb29" target="_blank" rel="noopener">
+          <span class="writing__title">Jobs-to-Be-Done: How It Can Help</span>
+          <span class="writing__desc">Rooting product decisions in the task a customer is actually trying to get done.</span>
+          <span class="writing__src">Medium</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://berkbuldanli.medium.com/achieving-product-market-fit-examples-and-strategies-for-success-9e59899d8571" target="_blank" rel="noopener">
+          <span class="writing__title">Achieving Product-Market Fit</span>
+          <span class="writing__desc">Strategies for testing whether a product truly fits the market it's built for.</span>
+          <span class="writing__src">Medium</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://berkbuldanli.medium.com/measuring-product-success-key-metrics-and-strategies-for-product-managers-8f1ee9e28e21" target="_blank" rel="noopener">
+          <span class="writing__title">Measuring Product Success</span>
+          <span class="writing__desc">Which metrics actually tell you whether a product is working — and how to track them.</span>
+          <span class="writing__src">Medium</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/pulse/six-key-product-artifacts-development-berk-buldanl%C4%B1" target="_blank" rel="noopener">
+          <span class="writing__title">Six Key Product Artifacts in Product Development</span>
+          <span class="writing__desc">A field guide to the prototypes, personas, and journey maps teams build along the way.</span>
+          <span class="writing__src">LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/pulse/from-birth-decline-product-lifecycle-berk-buldanl%C4%B1-dqqzf" target="_blank" rel="noopener">
+          <span class="writing__title">From Birth to Decline: The Product Lifecycle</span>
+          <span class="writing__desc">Walking through each stage of a product's life with real-world examples.</span>
+          <span class="writing__src">LinkedIn</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
 </main>
 
+<!-- ===== Contact / Footer ===== -->
 <footer class="contact" id="contact">
-  <p class="contact__eyebrow">04 — GET IN TOUCH</p>
-  <h2 class="contact__title">Let's talk product.</h2>
-  <div class="contact__links">
-    <a href="https://www.linkedin.com/in/berkbuldanli/" target="_blank" rel="noopener">LinkedIn ↗</a>
-    <a href="https://github.com/berkbuldanli" target="_blank" rel="noopener">GitHub ↗</a>
-    <a href="mailto:berkbuldanli@gmail.com">Email ↗</a>
+  <div class="contact__inner reveal">
+    <p class="section__kicker">Get in touch</p>
+    <h2 class="contact__title">Let's talk product.</h2>
+    <p class="contact__lede">
+      Always happy to trade notes on marketplaces, migrations, and building product across markets.
+    </p>
+    <div class="contact__links">
+      <a href="mailto:berkbuldanli@gmail.com" class="btn btn--primary">berkbuldanli@gmail.com</a>
+      <a href="https://www.linkedin.com/in/berkbuldanli/" target="_blank" rel="noopener" class="btn btn--ghost">LinkedIn</a>
+      <a href="https://github.com/berkbuldanli" target="_blank" rel="noopener" class="btn btn--ghost">GitHub</a>
+      <a href="https://berkbuldanli.medium.com/" target="_blank" rel="noopener" class="btn btn--ghost">Medium</a>
+    </div>
   </div>
-  <p class="contact__footnote">© 2026 Berk Buldanlı</p>
+  <p class="contact__footnote">© 2026 Berk Buldanlı · Built with care in Istanbul</p>
 </footer>
 
 <script src="script.js"></script>
