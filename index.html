@@ -9,10 +9,27 @@
 <meta property="og:description" content="Product Manager turning complex systems into products people reach for — B2B SaaS, marketplaces, and e-commerce.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://berkbuldanli.github.io">
+<meta property="og:image" content="https://berkbuldanli.github.io/assets/og-cover.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Berk Buldanlı — Product Manager">
+<meta name="twitter:description" content="Product Manager turning complex systems into products people reach for.">
+<meta name="twitter:image" content="https://berkbuldanli.github.io/assets/og-cover.png">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;450;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem('theme');
+      if (t !== 'dark' && t !== 'light') {
+        t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {}
+  })();
+</script>
 </head>
 <body>
 
@@ -25,18 +42,26 @@
       <span class="brand__role">Product Manager</span>
     </a>
 
-    <nav class="nav" aria-label="Primary">
-      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
-        <span class="nav__toggle-bar"></span>
-        <span class="nav__toggle-bar"></span>
+    <div class="header-tools">
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path></svg>
       </button>
-      <ul class="nav__menu" id="nav-menu">
-        <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#writing">Writing</a></li>
-        <li><a href="#contact" class="nav__cta">Contact</a></li>
-      </ul>
-    </nav>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+        </button>
+        <ul class="nav__menu" id="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#approach">Approach</a></li>
+          <li><a href="#writing">Writing</a></li>
+          <li><a href="#contact" class="nav__cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </div>
 </header>
 
@@ -55,6 +80,7 @@
         </p>
         <div class="hero__actions">
           <a href="#work" class="btn btn--primary">View my work</a>
+          <a href="assets/cv.pdf" class="btn btn--ghost" download>Download CV</a>
           <a href="#contact" class="btn btn--ghost">Get in touch</a>
         </div>
         <dl class="hero__meta">
@@ -80,6 +106,42 @@
           <img src="assets/profile.jpg" alt="Portrait of Berk Buldanlı" onerror="this.remove()">
           <span class="avatar__mono" aria-hidden="true">BB</span>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Impact metrics ===== -->
+  <section class="metrics" aria-label="Impact at a glance">
+    <div class="metrics__inner">
+      <div class="metric reveal">
+        <div class="metric__num">20<span>+</span></div>
+        <div class="metric__label">markets shipped across (APAC, Europe, MENA)</div>
+      </div>
+      <div class="metric reveal">
+        <div class="metric__num"><span>+</span>6<span>%</span></div>
+        <div class="metric__label">UGC-related mCVR from ratings &amp; reviews</div>
+      </div>
+      <div class="metric reveal">
+        <div class="metric__num">20<span> yrs</span></div>
+        <div class="metric__label">of marketplace data migrated to a global platform</div>
+      </div>
+      <div class="metric reveal">
+        <div class="metric__num">5<span>+</span></div>
+        <div class="metric__label">years building product across 5 companies</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Logos ===== -->
+  <section class="logos" aria-label="Where I've worked">
+    <div class="logos__inner reveal">
+      <span class="logos__label">Where I've worked</span>
+      <div class="logos__row">
+        <span class="logo-word">Chainels</span>
+        <span class="logo-word">Getir</span>
+        <span class="logo-word">Delivery&nbsp;Hero</span>
+        <span class="logo-word">Penti</span>
+        <span class="logo-word">Mercedes-Benz</span>
       </div>
     </div>
   </section>
@@ -240,6 +302,7 @@
             <dd>Opened a brand-new revenue stream and drove a <strong>6% increase in UGC-related mCVR</strong> over two years.</dd>
           </div>
         </dl>
+        <a href="case-ratings-reviews.html" class="case__more">Read the full story →</a>
       </article>
 
       <article class="case reveal">
@@ -290,6 +353,59 @@
 
     </div>
   </section>
+
+  <!-- ===== Approach / How I work ===== -->
+  <section class="section" id="approach">
+    <div class="section__head reveal">
+      <p class="section__kicker">How I work</p>
+      <h2 class="section__title">A few principles I keep coming back to.</h2>
+      <p class="section__sub">The habits that tend to survive contact with real roadmaps and real deadlines.</p>
+    </div>
+
+    <div class="principles reveal">
+      <div class="principle">
+        <span class="principle__num">01</span>
+        <h3>Start from the job to be done</h3>
+        <p>Features are a means, not the point. I anchor discovery in the task a customer is actually trying to get done, so we build the thing behind the request — not just the request.</p>
+      </div>
+      <div class="principle">
+        <span class="principle__num">02</span>
+        <h3>Decide with data, ship with judgment</h3>
+        <p>Dashboards and experiments sharpen the odds, but someone still has to make the call. I use data to narrow the options, then commit and learn in production.</p>
+      </div>
+      <div class="principle">
+        <span class="principle__num">03</span>
+        <h3>One roadmap, many markets</h3>
+        <p>Working across 20+ countries teaches you to hold a shared product vision and local reality at the same time — a single direction that still respects how each market actually behaves.</p>
+      </div>
+      <div class="principle">
+        <span class="principle__num">04</span>
+        <h3>Get it to production</h3>
+        <p>A plan that never ships helps no one. I stay close to engineering, design, and QA through release, because the value only shows up once it's live in front of users.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Testimonials =====
+       Hidden until real recommendation quotes are provided. To enable, remove
+       the surrounding comment markers and fill in the two quotes below.
+  <section class="section section--tint" id="testimonials">
+    <div class="section__head reveal">
+      <p class="section__kicker">Testimonials</p>
+      <h2 class="section__title">What people I've worked with say.</h2>
+    </div>
+    <div class="quotes reveal">
+      <figure class="quote">
+        <blockquote class="quote__text">[Paste a real recommendation quote here.]</blockquote>
+        <figcaption class="quote__who"><strong>Full Name</strong>Title · Company</figcaption>
+      </figure>
+      <figure class="quote">
+        <blockquote class="quote__text">[Paste a second recommendation quote here.]</blockquote>
+        <figcaption class="quote__who"><strong>Full Name</strong>Title · Company</figcaption>
+      </figure>
+    </div>
+  </section>
+  ===== end testimonials ===== -->
 
   <!-- ===== Writing ===== -->
   <section class="section" id="writing">
@@ -354,6 +470,7 @@
       <a href="https://www.linkedin.com/in/berkbuldanli/" target="_blank" rel="noopener" class="btn btn--ghost">LinkedIn</a>
       <a href="https://github.com/berkbuldanli" target="_blank" rel="noopener" class="btn btn--ghost">GitHub</a>
       <a href="https://berkbuldanli.medium.com/" target="_blank" rel="noopener" class="btn btn--ghost">Medium</a>
+      <a href="assets/cv.pdf" class="btn btn--ghost" download>Download CV</a>
     </div>
   </div>
   <p class="contact__footnote">© 2026 Berk Buldanlı · Rotterdam, Netherlands</p>
