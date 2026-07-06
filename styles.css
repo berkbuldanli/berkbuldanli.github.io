@@ -432,6 +432,16 @@ img { max-width: 100%; display: block; }
   flex: none;
 }
 .logos__row { display: flex; align-items: center; gap: 1.5rem 2.25rem; flex-wrap: wrap; }
+.logo { display: inline-flex; align-items: center; }
+.logo-img {
+  height: 30px;
+  width: auto;
+  max-width: 150px;
+  object-fit: contain;
+  opacity: 0.9;
+  transition: opacity 0.2s var(--ease);
+}
+.logo-img:hover { opacity: 1; }
 .logo-word {
   font-family: var(--font-display);
   font-weight: 600;

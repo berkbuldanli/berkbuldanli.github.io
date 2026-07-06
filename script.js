@@ -20,6 +20,23 @@
   });
 })();
 
+// ===== Company logos: fall back to a text wordmark if the image is missing =====
+(function () {
+  const imgs = document.querySelectorAll('.logo-img');
+  if (!imgs.length) return;
+  const toWord = (img) => {
+    const w = document.createElement('span');
+    w.className = 'logo-word';
+    w.textContent = img.getAttribute('alt') || '';
+    img.replaceWith(w);
+  };
+  imgs.forEach((img) => {
+    img.addEventListener('error', () => toWord(img));
+    // Handle images that already failed before this script ran.
+    if (img.complete && img.naturalWidth === 0) toWord(img);
+  });
+})();
+
 // ===== Mobile menu toggle =====
 (function () {
   const nav = document.querySelector('.nav');
