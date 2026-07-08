@@ -1,0 +1,37 @@
+# Berk Buldanlı — Product Manager
+
+> Berk Buldanlı is a product manager based in Rotterdam, Netherlands, specializing
+> in marketplace platforms, search & recommendations, and large-scale data
+> migration. He has shipped product across 20+ markets (APAC, Europe, MENA) at
+> Chainels, Getir, and Delivery Hero.
+
+## About
+- Name: Berk Buldanlı
+- Role: Product Manager (Product Owner at Chainels, Rotterdam)
+- Location: Rotterdam, Netherlands
+- Focus areas: marketplace platforms, search & recommendations, data migration, B2B SaaS, product monetization
+- Education: M.Sc. Big Data Analytics & Management (Bahçeşehir University); B.Sc. Industrial Engineering (İstanbul Kültür University)
+- Languages: Turkish, English, Spanish, Dutch
+
+## Experience
+- Chainels (2025–present) — Product Owner for Platform & Integrations; shipped Payments and ESG solutions.
+- Getir (2024) — Product Manager for search & recommendations across Market, Food, and Local Shops (Elasticsearch/OpenSearch, GNN, collaborative filtering).
+- Delivery Hero (2022–2024) — Product Manager; drove a 6% increase in UGC-related mCVR by monetizing ratings & reviews with AI. Earlier, as Product Owner, led the Yemeksepeti migration of 20 years of data onto Delivery Hero's Pandora platform.
+- Penti (2019–2021) — E-Commerce Product Manager & Business Development Team Lead.
+- Co-founder, E-Ticaret 101 Akademi (2020–2022) — e-commerce education initiative.
+
+## Selected projects (self-built browser extensions, Manifest V3)
+- Priority Scorer — RICE/ICE ticket scoring for Jira & Linear.
+- Quick Capture — save pages/highlights as tagged cards with a dashboard.
+- Quote Snap — turn selected text into shareable quote images.
+- Decision Trail — capture decisions from AI chats into a searchable, exportable log.
+
+## Writing
+- Essays on product management on Medium (berkbuldanli.medium.com) and LinkedIn, plus a Lean Marketing interview on Penti's mobile-first conversion work.
+
+## Links
+- Website: https://berkbuldanli.github.io/
+- LinkedIn: https://www.linkedin.com/in/berkbuldanli/
+- GitHub: https://github.com/berkbuldanli
+- Medium: https://berkbuldanli.medium.com/
+- Contact: berkbuldanli@gmail.com
