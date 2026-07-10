@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Berk Buldanlı — Writing</title>
+  <link>https://berkbuldanli.github.io/writing/</link>
+  <description>Essays and notes on product management by Berk Buldanlı.</description>
+  <language>en</language>
+  <item>
+    <title>Starting a place to write</title>
+    <link>https://berkbuldanli.github.io/writing/welcome.html</link>
+    <guid>https://berkbuldanli.github.io/writing/welcome.html</guid>
+    <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+    <description>Why I'm keeping my product writing on my own site — and what I plan to write about here.</description>
+  </item>
+</channel>
+</rss>
